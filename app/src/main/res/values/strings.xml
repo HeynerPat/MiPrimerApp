@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MiPrimerApp</string>
+    <string name="introduccion">Bienvenidos a mi primera app - Heyner Pat</string>
 </resources>
