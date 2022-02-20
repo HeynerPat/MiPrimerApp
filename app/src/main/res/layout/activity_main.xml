@@ -9,7 +9,7 @@
 
     <EditText
         android:id="@+id/etNombre"
-        android:layout_width="wrap_content"
+        android:layout_width="154dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@id/tvEtiqueta"
         android:layout_alignTop="@id/tvEtiqueta"
@@ -45,8 +45,8 @@
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="562dp"
-        android:layout_marginEnd="161dp"
+        android:layout_marginTop="423dp"
+        android:layout_marginEnd="153dp"
         android:background="@color/teal_700"
         android:backgroundTint="#00BCD4"
         android:text="SALUDAR"
@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="123dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="50dp"
         android:text="Soy Desarrollador" />
 </RelativeLayout>
