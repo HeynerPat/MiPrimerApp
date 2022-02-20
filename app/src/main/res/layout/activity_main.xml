@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/etNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@id/tvEtiqueta"
@@ -16,8 +16,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="176dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="151dp"
         android:background="#19018787"
         android:ems="10"
         android:inputType="textPersonName"
@@ -38,30 +38,19 @@
         android:textColor="@color/colorTexto" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/bSaludar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="160dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginTop="562dp"
+        android:layout_marginEnd="161dp"
         android:background="@color/teal_700"
         android:backgroundTint="#00BCD4"
-        android:text="Button"
+        android:text="SALUDAR"
         android:textColor="@color/black" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="3dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="350dp"
-        android:text="Subir Informacion" />
 
     <TextView
         android:id="@+id/textView"
@@ -74,4 +63,14 @@
         android:layout_marginTop="59dp"
         android:text="@string/introduccion"
         android:textColor="@color/colorTexto" />
+
+    <CheckBox
+        android:id="@+id/cbDeveloper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="16dp"
+        android:text="Soy Desarrollador" />
 </RelativeLayout>
